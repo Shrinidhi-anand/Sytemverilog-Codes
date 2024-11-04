@@ -1,11 +1,5 @@
 // Code your design here
 
-interface ha_int ( input bit clk );
-  bit d,q;
-endinterface
-
-
-
 module ha(a_d,b_d,ci_d,s_d,co_d);
   input a_d,b_d,ci_d;
   output reg s_d,co_d;
