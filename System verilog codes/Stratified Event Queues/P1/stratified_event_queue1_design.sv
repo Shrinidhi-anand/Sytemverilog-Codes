@@ -1,6 +1,6 @@
 // Code your design here
 
-interface dff_int ( input bit clk );
+interface ha_int ( input bit clk );
   bit d,q;
 endinterface
 
